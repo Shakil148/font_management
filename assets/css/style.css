@@ -1,0 +1,52 @@
+.container {
+  padding-top: 10px;
+}
+.rounded {
+  width: 100px;
+}
+.img-thumbnail {
+  width: 80px !important;
+}
+.message {
+  display: none;
+}
+#overlay {
+  background: #ffffff;
+  color: #666666;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+  opacity: 0.8;
+}
+.image-upload {
+  max-width: 360px;
+}
+.upload-field {
+  display: block;
+  background: #f4fafe;
+  padding: 12px;
+  border-radius: 12px;
+}
+.upload-field .file-thumbnail {
+  cursor: pointer;
+  border: 1px dashed #a3c5da;
+  border-radius: 11px;
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+.image-upload input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
